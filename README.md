@@ -2,7 +2,7 @@
 
 Setup:
 path - address of a directory
-commands - set of commands for execution
+;commands - set of commands for execution
   - change path and commands in config.yaml
 
 Run:
