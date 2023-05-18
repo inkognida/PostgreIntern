@@ -1,0 +1,9 @@
+paths:
+  - path: /Users/artemshibaev/Downloads/L0/testmain
+    commands:
+      - cmd: "pwd"
+      - cmd: "go run main.go"
+      - cmd: "ls"
+  - path: /Users/artemshibaev/PostgreIntern/internal
+    commands:
+      - cmd: "ls"
