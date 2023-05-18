@@ -36,7 +36,7 @@ func NewRepo(logger *logrus.Logger) Repository {
 
 	return &repo{
 		logger: logger,
-		pool:   dbSetup(logger),
+		pool:   pool,
 		Queries: queries.New(pool),
 	}
 }
